@@ -1,0 +1,25 @@
+# QLoRA project specific ignores
+*.pt
+*.bin
+*.safetensors
+*.parquet
+*.jsonl
+*.csv
+*.tar.gz
+*.zip
+
+# Model and data directories
+qwen_7b_medical_lora_output/ # 你的微调输出目录
+llama2_medical_meadow_wikidoc_instruct_dataset_files/ # 你的数据集目录
+Qwen-7B-Chat/ # 你的基础模型目录
+
+# Python virtual environment
+venv/
+.venv/
+env/
+
+# Cache
+__pycache__/
+.ipynb_checkpoints/
+.cache/
+*.log
