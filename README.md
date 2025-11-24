@@ -1,0 +1,2 @@
+# Qlora_Qwen_7B_Medical_Finetune
+硬件资源使用3080 10G微调
